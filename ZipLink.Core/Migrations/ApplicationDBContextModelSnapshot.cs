@@ -43,6 +43,9 @@ namespace ZipLink.Core.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long>("Numberofclicks")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("ShortURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

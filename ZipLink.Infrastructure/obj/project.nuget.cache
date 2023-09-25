@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YVxBkfMWTM9w4mWvRTKX3h0k/O2I6ecyKtpdVm9vV8THWzvu7HyYfnXvagJobS6Kjfxn5/Kenhrms2ccIO2Z3Q==",
+  "dgSpecHash": "4sUprq7sPshMXBJabI/hLYtLjACUULDJTdwjPfu7zMN9/qFLFyKTAj8GNl6mQz8Ea/R8GstO8J3TV3f/BlVr+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Digital Dividend\\source\\repos\\ZipLink\\ZipLink.Infrastructure\\ZipLink.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "S7u/duih8Jol9BNANjD4Q7SU1QmnxY1gMBES7nH39iQiGR63H1/aWEitT206M5v89TLwjAmFuItWjCZl4TgRyg==",
+  "dgSpecHash": "+M+b2TFfa0JurZ61yHsuCgKdE9aSYXqqWiiDdVZ0iBKd0XUZs8C5nGUPNhABn/v9AW5iYnv70PkaQmqeieZzsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Digital Dividend\\source\\repos\\ZipLink\\ZipLink.API\\ZipLink.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\7.1.0\\aspnetcore.healthchecks.ui.client.7.1.0.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\7.0.0\\aspnetcore.healthchecks.ui.core.7.0.0.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Digital Dividend\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

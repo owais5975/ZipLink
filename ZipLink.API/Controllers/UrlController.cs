@@ -20,8 +20,8 @@ namespace ZipLink.API.Controllers
         public IActionResult Post([FromBody] string url) =>
             Ok(new Response { Status = true, Data = _urlServiceRepo.CreateURL(url), Message = string.Format(CustomMessages.CREATED, "Url") });
 
-        [HttpGet]
-        public IActionResult Get([FromQuery] string url) =>
-            Ok(new Response { Status = true, Data = _urlServiceRepo.GetURL(url) });
+        [HttpGet("/{id}")]
+        public async Task<IActionResult> Get(string id) =>
+            Redirect(await _urlServiceRepo.GetURL(id));
     }
 }

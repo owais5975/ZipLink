@@ -20,16 +20,7 @@ namespace ZipLink.API.Extensions
         {
             try
             {
-                var accesskey = context.Request.Headers["X-API-Key"];
-                var token = _config.GetSection("Tokens:AccessToken").Value;
-                if (accesskey == token)
-                {
-                    await _next(context);
-                    return;
-                }
-
-                context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
-
+                await _next(context);
             }
             catch (Exception ex)
             {

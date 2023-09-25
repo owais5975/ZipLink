@@ -9,6 +9,6 @@ namespace ZipLink.Infrastructure.Implementation
     public interface IUrlServiceRepo
     {
         string CreateURL(string url);
-        string? GetURL(string url);
+        Task<string?> GetURL(string url);
     }
 }

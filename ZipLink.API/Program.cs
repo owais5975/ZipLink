@@ -11,6 +11,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHealthChecks();
 builder.Services.RegisterServices(builder.Configuration);
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSignalR();
 builder.Services.AddSwaggerGen(config =>
 {
     config.OperationFilter<HeaderFilterExtension>();
@@ -44,6 +46,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseCors(_policy);
 app.UseHttpsRedirection();
+app.MapHub<ChatHub>("chat-hub");
 app.UseMiddleware<CustomMiddleware>();
 app.UseAuthorization();
 

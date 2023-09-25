@@ -15,5 +15,7 @@ namespace ZipLink.Core.Entities
         public string LongURL { get; set; } = string.Empty;
         public string ShortURL { get; set; } = string.Empty;
         public DateTime ExpiryDateTime { get; set; }
+        public long Numberofclicks { get; set; }
+
     }
 }
